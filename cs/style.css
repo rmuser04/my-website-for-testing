@@ -1,9 +1,0 @@
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-}
