@@ -1,0 +1,30 @@
+/* General Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Fluid Layout Page */
+.fluid-layout {
+  width: 100%;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+/* Fixed Width Layout Page */
+.fixed-layout {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
